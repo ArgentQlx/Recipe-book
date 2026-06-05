@@ -1,0 +1,230 @@
+QMainWindow, QDialog {
+    background-color: #0D0221;
+}
+
+QLabel {
+    color: #FF2A6D;
+    font-weight: bold;
+}
+
+QTableWidget {
+    color: #FF2A6D;
+    background-color: #FF2A6D;
+    font-weight: bolder;
+    border: none;
+    padding: 2px;
+}
+
+QHeaderView::section {
+    padding: 2px;
+    border: none;
+    background-color: #FF2A6D;
+    color: #0D0221;
+}
+
+QListWidget {
+    border: 3px solid #FF2A6D;
+    padding: 5px;
+    color: #05D9E8;
+    background-color: #1A0B2E;
+    font-weight: bold;
+    min-height: 300px;
+}
+
+QListWidget::item {
+    border: 2px solid #FF2A6D;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QListWidget::item:hover {
+    border-radius: 15px;
+    background-color: #2A1040;
+}
+
+QListWidget::item:focus {
+    border-radius: 15px;
+    background-color: #FF2A6D;
+    color: #0D0221;
+    padding: 1px;
+    margin: 1px;
+}
+
+QListWidget::horizontalScrollBar {
+    border: none;
+    background: #1A0B2E;
+    width: 12px;
+}
+
+QListWidget::horizontalScrollBar::handle {
+    background: #FF2A6D;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+.recipe_widget {
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.recipe_widget::item {
+    margin: 0px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.recipe_widget::item:hover {
+    border-radius: 0px;
+}
+
+.recipe_widget::item:focus {
+    border-radius: 0px;
+}
+
+QFrame {
+    background-color: #1A0B2E;
+}
+
+QPushButton {
+    border-radius: 5px;
+    background-color: #FF2A6D;
+    color: #0D0221;
+    padding: 5px 20px;
+    min-height: 23px;
+    min-width: 20px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    color: #FF2A6D;
+    background-color: #0D0221;
+    border: 2px solid #FF2A6D;
+}
+
+QLineEdit, QTextEdit, QTimeEdit, QSpinBox, QComboBox {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #1A0B2E;
+    color: #05D9E8;
+    border: 2px solid #FF2A6D;
+    font-size: 15px;
+    min-height: 25px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border-radius: 10px;
+    border-color: #05D9E8;
+}
+
+QTextBrowser {
+    border: none;
+    background-color: #0D0221;
+    color: #05D9E8;
+}
+
+QSpinBox::up-button, QSpinBox::down-button, QTimeEdit::up-button, QTimeEdit::down-button {
+    border-width: 1px;
+}
+
+QRadioButton, QCheckBox {
+    color: #05D9E8;
+}
+
+QComboBox {
+    background-color: #FF2A6D;
+    border-radius: 5px;
+    color: #0D0221;
+    font-weight: bold;
+}
+
+QAbstractItemView::item {
+    margin: 5px;
+    color: #05D9E8;
+    font-weight: 600;
+}
+
+QTabBar::tab {
+    background-color: #FF2A6D;
+    color: #0D0221;
+    padding: 5px;
+    min-width: 50px;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background-color: #0D0221;
+    color: #FF2A6D;
+    font-weight: 600;
+    border-bottom: 2px solid #05D9E8;
+}
+
+QSlider::groove:horizontal {
+    border: none;
+    height: 8px;
+    background: #1A0B2E;
+    border-radius: 4px;
+}
+
+QSlider {
+    border: 2px solid #FF2A6D;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #FF2A6D;
+    border-radius: 4px;
+}
+
+QSlider::handle:horizontal {
+    background: #05D9E8;
+    border: 3px solid #FF2A6D;
+    width: 12px;
+    height: 12px;
+    margin: -6px -2px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: #FF2A6D;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #FF2A6D;
+    border-radius: 5px;
+    background-color: #1A0B2E;
+}
+
+QRadioButton::indicator {border-radius: 12px;}
+
+QCheckBox::indicator:hover,
+QRadioButton::indicator:hover {
+    background-color: #2A1040;
+}
+
+QCheckBox::indicator:checked,
+QRadioButton::indicator:checked {
+    background-color: #FF2A6D;
+}
+
+.cancel_btn {
+    color: #05D9E8;
+    border: 2px solid #FF2A6D;
+    background-color: #1A0B2E;
+}
+
+.cancel_btn:hover {
+    background-color: #FF2A6D;
+    color: #0D0221;
+}
+
+.modal_label {
+    background-color: #1A0B2E;
+    color: #05D9E8;
+    max-height: 40px;
+    font-weight: bold;
+}

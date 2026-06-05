@@ -1,0 +1,14 @@
+{
+    "db_path": ".\\database\\database_for_test.sqlite",
+    "current_theme": "Основная",
+    "recipe_search_param": "difficult",
+    "results_limit": 60,
+    "themes": {
+        "Основная": ".\\themes\\main_theme.css",
+        "Просто лес": ".\\themes\\forest.css",
+        "Кибер розовый": ".\\themes\\cyber_rose.css",
+        "Закат": ".\\themes\\sunset.css",
+        "Синий с золотом": ".\\themes\\deep_blue.css",
+        "Пользовательская": ".\\themes\\user_theme.css"
+    }
+}

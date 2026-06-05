@@ -1,0 +1,247 @@
+
+QMainWindow, QDialog {
+    background-color: #920e4c;
+}
+
+QLabel {
+    color: #920e4c;
+    font-weight: bold;
+}
+
+QTableWidget {
+    color: #920e4c;
+    font-weight: bolder;
+    /* border: 2px solid #920e4c; */
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+    /* gridline-color: transparent; */
+    /* min-height: 150px; */
+}
+
+
+QHeaderView::section {
+    padding: 2px;
+    border: none;
+    background-color: #920e4c;
+    color: white;
+}
+
+QListWidget {
+    border: 3px solid #920e4c;
+    padding: 5px;
+    color: #920e4c;
+    background-color: lightgray;
+    font-weight: bold;
+    min-height: 300px;
+}
+
+QListWidget::item {
+    border: 2px solid #920e4c;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QListWidget::item:hover {
+    border-radius: 15px;
+    background-color: lightgray;
+}
+
+QListWidget::item:focus {
+    border-radius: 15px;
+    background-color: #920e4c;
+    color: white;
+    padding: 1px;
+    margin: 1px;
+}
+
+QListWidget::horizontalScrollBar {
+    border: none;
+    background: white;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+QListWidget::horizontalScrollBar::handle {
+    background: #920e4c;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QListWidget::item:selected {
+    font-size: 15px;
+}
+
+.recipe_widget {
+    padding: 0px;
+    border-radius: 4px;
+}
+
+.recipe_widget::item {
+    margin: 0px;
+    border-radius: 0px;
+    border-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.recipe_widget::item:hover {
+    border-radius: 0px;
+}
+
+.recipe_widget::item:focus {
+    border-radius: 0px;
+}
+
+QFrame {
+    border-radius: 20px;
+    background-color: white;
+}
+
+QPushButton {
+    border-radius: 5px;
+    background-color: #920e4c;
+    color: white;
+    padding: 5px 20px;
+    min-height: 23px;
+    min-width: 20px;
+}
+
+QPushButton:hover {
+    color: #920e4c;
+    background-color: white;
+    border: 2px solid #920e4c;
+}
+
+QLineEdit, QTextEdit, QTimeEdit, QSpinBox, QComboBox {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: #920e4c;
+    border: 2px solid #920e4c;
+    font-size: 15px;
+    min-height: 25px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border-radius: 10px;
+}
+
+QTextBrowser {
+    border: none;
+    background-color: #920e4c;
+    color: white;
+}
+
+QSpinBox::up-button, QSpinBox::down-button, QTimeEdit::up-button, QTimeEdit::down-button {
+    border-width: 1px;
+}
+
+QRadioButton, QCheckBox {
+    color: #920e4c;
+}
+
+QComboBox {
+    background-color: #920e4c;
+    border-radius: 5px;
+    color: white;
+}
+
+QAbstractItemView::item {
+    margin: 5px;
+    color: #920e4c;
+    font-weight: 600;
+}
+
+/* QTabWidget::pane {
+    border-radius: 0px;
+} */
+
+QTabBar::tab {
+    background-color: #920e4c;
+    color: white;
+    padding: 5px;
+    min-width: 50px;
+}
+
+QTabBar::tab:selected {
+    background-color: white;
+    color: #920e4c;
+    font-weight: 600;
+}
+
+
+/* Вся полоса (желоб) */
+QSlider::groove:horizontal {
+    border: none;
+    height: 8px;
+    background: white;
+    border-radius: 4px;
+}
+
+
+QSlider {
+    border: 2px solid #920e4c;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Полоса до ползунка (пройденная часть) */
+QSlider::sub-page:horizontal {
+    background: #920e4c;
+    border-radius: 4px;
+}
+
+/* Ползунок */
+QSlider::handle:horizontal {
+    background: #920e4c;
+    border: 3px solid white;
+    width: 12px;
+    height: 12px;
+    margin: -6px -2px;
+    /* Центрируем ползунок относительно полосы */
+    border-radius: 5px;
+}
+
+/* Ползунок при наведении */
+QSlider::handle:horizontal:hover {
+    background: #920e4c;
+}
+
+QCheckBox::indicator, QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #920e4c;
+    border-radius: 5px;
+    background-color: white;
+}
+
+QRadioButton::indicator {border-radius: 12px;}
+
+QCheckBox::indicator:hover,
+QRadioButton::indicator:hover {
+    /* background-color: #ff0077; */
+    background-color: lightgray;
+}
+
+QCheckBox::indicator:checked,
+QRadioButton::indicator:checked {
+    background-color: #920e4c;
+}
+
+.cancel_btn {
+    color: #920e4c;
+    border: 2px solid #920e4c;
+    background-color: white;
+}
+.cancel_btn:hover {
+    background-color: #920e4c;
+    color: white;
+}
+
+.modal_label {
+    background-color: white;
+    color: #920e4c;
+    max-height: 40px;
+    font-weight: bold;
+}

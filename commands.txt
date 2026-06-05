@@ -1,0 +1,2 @@
+pyuic6 -o .\gui\main_window\window_gui.py .\gui\main_window\main_window.ui
+pyuic6 -o .\gui\recipe_window\recipe_window_gui.py .\gui\recipe_window\recipe_window.ui
