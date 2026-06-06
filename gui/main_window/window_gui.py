@@ -348,7 +348,7 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.main_layout_2)
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(3)
+        self.tabWidget.setCurrentIndex(4)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -422,11 +422,11 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Автор:</span></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Телеграм: </span><a href=\"https://t.me/gd_4ever\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">Qlex</span></a></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Телеграм канал: </span><a href=\"https://t.me/space_bar_rar\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">SPACE BAR</span></a></p>\n"
-"<p align=\"center\" style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Вклад внесли:</span></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">     - </span><a href=\"https://t.me/MerchantArm\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">Merchant</span></a></p>\n"
-"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">     - </span><a href=\"https://t.me/teatteaa\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">tea</span></a></p></body></html>"))
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Автор:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Телеграм: </span><a href=\"https://t.me/gd_4ever\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">Qlex</span></a></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">Телеграм канал: </span><a href=\"https://t.me/space_bar_rar\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">SPACE BAR</span></a></p>\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:600;\">Вклад внесли:</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">- </span><a href=\"https://t.me/MerchantArm\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">Merchant</span></a></p>\n"
+"<p style=\" margin-top:12px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">- </span><a href=\"https://t.me/teatteaa\"><span style=\" font-size:12pt; font-weight:600; text-decoration: underline; color:#ffffff;\">tea</span></a></p></body></html>"))
         self.label.setText(_translate("MainWindow", "О приложении"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_8), _translate("MainWindow", "Инфо"))
