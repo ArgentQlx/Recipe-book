@@ -1,8 +1,8 @@
 {
     "db_path": ".\\database\\database_for_test.sqlite",
-    "current_theme": "Основная",
+    "current_theme": "Закат",
     "recipe_search_param": "difficult",
-    "results_limit": 60,
+    "results_limit": 66,
     "themes": {
         "Основная": ".\\themes\\main_theme.css",
         "Просто лес": ".\\themes\\forest.css",
