@@ -1,5 +1,5 @@
 {
-    "db_path": ".\\database\\database_for_test.sqlite",
+    "db_path": ".\\database\\database.sqlite",
     "current_theme": "Основная",
     "recipe_search_param": "title",
     "results_limit": 66,

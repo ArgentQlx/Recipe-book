@@ -44,11 +44,9 @@ def add_recipe(self):
        recipe_table, steps_table, ingredients_table = get_tables()
 
        status = recipe_table.add_recipe(recipe_title, recipe_summary, time_minutes, difficult)
-       print(status)
        if not status[0]:
               print(status[1])
               return
-       print(status[1])
 
        self.recipe_title_input.setText('')
        self.recipe_summary_input.setText('')
